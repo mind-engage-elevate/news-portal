@@ -1,0 +1,5 @@
+__pycache__
+myenv/
+mylog.log
+requirements.txt
+news-portal/
