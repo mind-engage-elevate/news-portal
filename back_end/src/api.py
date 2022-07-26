@@ -5,7 +5,7 @@ from fastapi import FastAPI,HTTPException
 from fastapi.middleware.cors import CORSMiddleware  
 
 log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-api_key = 'pub_880000962e9f4f06fd6d1a7164f94fd5302d'
+api_key = 'your_api_key'
 file_name = f'_{str(datetime.now().strftime("%Y_%m_%d-%I_%M_%S_%p"))}.log'
 
 news=FastAPI()
