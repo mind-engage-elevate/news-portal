@@ -10,7 +10,7 @@ logging.basicConfig(filename='test.log',format='%(asctime)s:%(levelname)s:%(mess
 @app.get("/")
 def news():
     try:
-        main_url="https://newsdata.io/api/1/news?apikey=pub_8144b6b37b8522ef6c6e77859704c30cdbc1"
+        main_url="https://newsdata.io/api/1/news?apikey="
         news=requests.get(main_url).json()
         logging.info("Request successful")
         return news
