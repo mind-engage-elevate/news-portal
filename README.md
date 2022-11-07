@@ -7,6 +7,7 @@
 - Also implement automated logging for debugging and error handling.
 
 ## 💻Tech Stack
+<div align="left">
 <br>
 
 <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -19,3 +20,4 @@
 <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
  
 <br>
+</div>
