@@ -15,7 +15,7 @@ body{
 }
 
 .card{
-    width: 70%;
+    width: 30%;
     border: 1px solid red;
     margin: 15px 10px;
     display: flex;
@@ -53,13 +53,16 @@ body{
 }
 
 .col{
-    width:33.33%;
+    width:45.33%;
     text-align: center;
     color:indigo;
 }
 
 .col2{
     border-left: 1px solid black;
+    color:indigo;
+}
+.col2{
     color:indigo;
 }
 
