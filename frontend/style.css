@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: black;
+}
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+.card{
+    width: 30%;
+    border: 1px solid red;
+    margin: 15px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: khaki;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.row1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.row2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18px;    
+}
+
+.row3{
+    text-align: justify;
+    margin:0px 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.col{
+    width:45.33%;
+    text-align: center;
+    color:indigo;
+}
+
+.col2{
+    border-left: 1px solid black;
+    color:indigo;
+}
+.col2{
+    color:indigo;
+}
+
+a{
+    text-decoration: none;
+}
+.first{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    font-family: 'Diplomata SC', cursive;
+    position: relative;
+}
+
+div > span{
+    position:absolute;
+    top: 0px;
+    right:0px;
+    font-size: 30px;
+}
+
+#title{
+    text-align: center;
+}
+
